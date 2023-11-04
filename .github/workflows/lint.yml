@@ -1,0 +1,53 @@
+name: lint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+env:
+  FORCE_COLOR: 3
+  TERM: xterm
+
+permissions:
+  contents: read
+
+jobs:
+
+  lint-actions:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Add actionlint problem matcher
+      run: echo "::add-matcher::.github/actionlint-matcher.json"
+
+    - name: Lint workflows
+      uses: docker://rhysd/actionlint@1.6.26
+      with:
+        args: -color
+
+  lint-markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Lint Markdown files
+      uses: DavidAnson/markdownlint-cli2-action@v13
+      with:
+        config: .markdownlint.json
+        globs: |
+          **/*.md
+
+    - name: Spellcheck
+      uses: rojopolis/spellcheck-github-actions@v0
+      with:
+        config_path: .github/spellcheck.yml
