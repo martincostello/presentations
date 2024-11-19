@@ -3,6 +3,8 @@
 <!-- markdownlint-disable-next-line line-length -->
 Slides for my presentation at [.NET Conf 2024][dotnetconf], _"[Extending ASP.NET Core OpenAPI - Enrich your OpenAPI documents with examples, descriptions and more!][session]"_.
 
+A recording of the talk can be [found on YouTube 📺][recording].
+
 ## Abstract
 
 > In this session we'll take a look into the transformation interfaces that ship
@@ -15,4 +17,5 @@ Slides for my presentation at [.NET Conf 2024][dotnetconf], _"[Extending ASP.NET
 > application's API.
 
 [dotnetconf]: https://www.dotnetconf.net/
+[recording]: https://www.youtube.com/watch?v=ooP0vkST3X8
 [session]: https://sessionize.com/s/martincostello/extending-asp.net-core-openapi-enrich-your-openapi/108484
