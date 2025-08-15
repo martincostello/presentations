@@ -11,13 +11,14 @@ env:
   FORCE_COLOR: 3
   TERM: xterm
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
 
   lint-actions:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
 
@@ -34,6 +35,8 @@ jobs:
 
   lint-markdown:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
 
