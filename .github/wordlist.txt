@@ -4,5 +4,6 @@ conf
 ddd
 dotnet
 dotnetsheff
+grafana
 nuget
 openapi
