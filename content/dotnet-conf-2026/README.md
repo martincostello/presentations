@@ -1,7 +1,7 @@
 # .NET Conf 2026
 
 <!-- markdownlint-disable-next-line line-length -->
-Slides for my presentation at [.NET Conf 2026][dotnetconf], _"[_ASP.NET Core 11 💖 OpenTelemetry][session]"_.
+Slides for my presentation at [.NET Conf 2026][dotnetconf], _"[ASP.NET Core 11 💖 OpenTelemetry][session]"_.
 
 <!--
 A recording of the talk can be [found on YouTube 📺][recording].
