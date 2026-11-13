@@ -3,7 +3,9 @@ aspnetcore
 conf
 ddd
 dotnet
+dotnetconf
 dotnetsheff
 grafana
 nuget
 openapi
+opentelemetry
