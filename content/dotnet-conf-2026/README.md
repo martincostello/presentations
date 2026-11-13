@@ -27,4 +27,4 @@ A recording of the talk can be [found on YouTube 📺][recording].
 [recording]: TODO
 -->
 
-[session]: https://www.dotnetconf.net/agenda#session-D4T20261113113000
+[session]: https://sessionize.com/s/martincostello/asp.net-core-11-opentelemetry/196122
