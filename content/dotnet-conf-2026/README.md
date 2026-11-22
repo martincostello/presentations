@@ -3,9 +3,7 @@
 <!-- markdownlint-disable-next-line line-length -->
 Slides for my presentation at [.NET Conf 2026][dotnetconf], _"[ASP.NET Core 11 💖 OpenTelemetry][session]"_.
 
-<!--
 A recording of the talk can be [found on YouTube 📺][recording].
--->
 
 ## Abstract
 
@@ -22,9 +20,5 @@ A recording of the talk can be [found on YouTube 📺][recording].
 > no matter what programming languages they're written in.
 
 [dotnetconf]: https://www.dotnetconf.net/
-
-<!--
-[recording]: TODO
--->
-
+[recording]: https://www.youtube.com/watch?v=3mAhtBjBW88
 [session]: https://sessionize.com/s/martincostello/asp.net-core-11-opentelemetry/196122
